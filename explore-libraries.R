@@ -1,5 +1,0 @@
-from_dir <- file.path("~", "Desktop", "day1_s2_copy-files")
-from_files <- list.files(from_dir, pattern = "\\.R$", full.names = TRUE)
-to_files <- basename(from_files)
-file.copy(from_files, to_files)
-list.files()
