@@ -15,6 +15,8 @@ library(tidyverse)
 ft <- tibble(files = dir_ls(glob = "*.R"))
 ft
 
+# extra mystery line
+
 ft %>%
   filter(str_detect(files, "explore"))
 
