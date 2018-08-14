@@ -2,8 +2,8 @@
 #install.packages('fs')
 library(fs)
 library(tidyverse)
-library(ggplot2)
-library(cowplot)
+#library(ggplot2)
+#library(cowplot)
 
 (from_dir <- path_home("Desktop", "day1_s2_explore-libraries"))
 (from_files <- dir_ls(from_dir, glob = "*.R"))
